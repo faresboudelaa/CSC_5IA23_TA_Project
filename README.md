@@ -3,5 +3,14 @@ Robust Computer vision with deep learning, XAI, Uncertainty quantification (CSC_
 
 
 ## Link for the trained network
-Resnet trained for 270 epochs
-`https://drive.google.com/file/d/1WNrIyg8FNSY0HYP-Af1X2c-eAjBnU4RL/view?usp=drive_link`
+Resnet trained for 360 epochs
+
+### <a href= "https://drive.google.com/file/d/1tMgoqWBzVRWpsmKJHyY_0p0oAWbqNmI6/view?usp=drive_link"> link </a>
+
+
+```python
+#load the model
+resnet = ResNet18(64,2,100).to(device)
+resnet.load_state_dict(torch.load("resnet_360_epoch.pth"))
+
+```
