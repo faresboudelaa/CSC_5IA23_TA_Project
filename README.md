@@ -7,10 +7,15 @@ Resnet trained for 360 epochs
 
 ### <a href= "https://drive.google.com/file/d/1tMgoqWBzVRWpsmKJHyY_0p0oAWbqNmI6/view?usp=drive_link"> link </a>
 
+To load the model, use the following code snippet: `load_model(path)`
+
+TO extract features use
 
 ```python
-#load the model
-resnet = ResNet18(64,2,100).to(device)
-resnet.load_state_dict(torch.load("resnet_360_epoch.pth"))
+resnet = load_model(path)
+features = resnet.model(x)
 
+classifier = resnet.cl
+
+logits = resnet(x)
 ```
