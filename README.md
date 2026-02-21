@@ -5,7 +5,7 @@ Robust Computer vision with deep learning, XAI, Uncertainty quantification (CSC_
 ## Link for the trained network
 Resnet trained for 360 epochs
 
-### <a href= "https://drive.google.com/drive/folders/1TNNi26s1HzbgB4A8x6qKlEUF8_ggdAyo?usp=sharing"> link </a>
+### <a href= "https://drive.google.com/drive/folders/1PwXg9t3alvuipOaZJRDK3v1o7kaFA3hf"> link </a>
 
 To load the model, use the following code snippet: `load_model(path)`
 
